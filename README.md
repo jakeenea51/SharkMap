@@ -13,7 +13,7 @@ SharkMap is a Wireshark capture visualizer that displays traceable public IP con
 ## How to Get the Wireshark Capture
 1. Open WireShark with the command: `wireshark`
 2. Select the network interface you are currently using.
-3. Run Wireshark for a short amount of time, just to get a quick capture of your computer's current connections. Captures that are too big will return an error, so keeping the capture size below 1500 packets is best.
+3. Run Wireshark for a short amount of time, just to get a quick capture of your computer's current connections. Captures that are too big will return an error, so keeping the capture size below 1,500 packets is best.
 4. Stop the capture and under *File*, export the packet dissections as CSV.
 5. Rename the CSV to something simple, such as "shark.csv", and save it in the SharkMap directory.
 
